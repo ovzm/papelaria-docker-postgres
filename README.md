@@ -5,10 +5,11 @@
 1. Configure usuário, senha, banco e porta no arquivo `.env`. Os valores fornecidos são apenas exemplos locais. Se o arquivo não existir, crie-o com:
 
    ```env
-   POSTGRES_USER=postgres
-   POSTGRES_PASSWORD=postgres
-   POSTGRES_DB=loja
-   POSTGRES_PORT=5432
+   DB_USER=papelaria_admin
+   DB_PASSWORD=papelaria123
+   DB_NAME=papelaria_db
+   DB_HOST=localhost
+   DB_PORT=5433
    ```
 
 2. Na pasta do projeto, execute:
